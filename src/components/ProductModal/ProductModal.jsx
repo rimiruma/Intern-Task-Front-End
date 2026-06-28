@@ -3,13 +3,23 @@ import { FiX } from 'react-icons/fi';
 import { FaStar } from 'react-icons/fa';
 
 const ProductModal = ({ product, onClose }) => {
-  // Prevent scrolling when modal is open
+  // Prevent scrolling when modal is open and handle Escape key
   useEffect(() => {
     document.body.style.overflow = 'hidden';
+    
+    const handleKeyDown = (e) => {
+      if (e.key === 'Escape') {
+        onClose();
+      }
+    };
+    
+    window.addEventListener('keydown', handleKeyDown);
+    
     return () => {
       document.body.style.overflow = 'unset';
+      window.removeEventListener('keydown', handleKeyDown);
     };
-  }, []);
+  }, [onClose]);
 
   if (!product) return null;
 
