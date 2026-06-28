@@ -6,7 +6,7 @@ const Hero = () => {
       className="relative h-screen bg-cover bg-center bg-no-repeat"
       style={{
         backgroundImage:
-          "url('https://images.unsplash.com/photo-1523381210434-271e8be1f52b?q=80&w=2070&auto=format&fit=crop')",
+             "url('https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?q=80&w=2070&auto=format&fit=crop')",
       }}
     >
       {/* Dark Overlay */}
@@ -29,7 +29,8 @@ const Hero = () => {
             modern shopping experience powered by FakeStore API.
           </p>
 
-          <button className="inline-flex items-center gap-2 rounded-full bg-blue-600 px-8 py-4 text-lg font-semibold text-white shadow-2xl transition-all duration-300 hover:-translate-y-1 hover:bg-blue-700">
+          <button
+           className="inline-flex items-center gap-2 bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-indigo-600 hover:to-blue-600 px-8 p-4 cursor-pointer text-lg font-semibold text-white shadow-2xl transition-all duration-300 hover:-translate-y-1 hover:bg-blue-700">
             Browse Products
             <FiArrowRight size={22} />
           </button>

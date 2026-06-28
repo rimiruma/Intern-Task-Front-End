@@ -8,9 +8,8 @@ A modern and responsive Product Explorer web application built with **React**, *
 
 **Live Site:** https://your-live-link.vercel.app
 
-**Frontend Repository:** https://github.com/your-username/product-explorer
+**Frontend Repository:** https://github.com/rimiruma/Intern-Task-Front-End
 
-**Backend Repository:** https://github.com/your-username/product-explorer-server
 
 ---
 
@@ -84,7 +83,7 @@ src/
 ### Clone the repository
 
 ```bash
-git clone https://github.com/your-username/product-explorer.git
+git clone https://github.com/rimiruma/Intern-Task-Front-End
 ```
 
 ### Navigate to the project
@@ -131,14 +130,8 @@ npm run dev
 
 ## 📌 Future Improvements
 
-* User Authentication
-* Wishlist
-* Shopping Cart
 * Product Search
 * Category Filter
-* Price Sorting
-* Pagination
-* Dark Mode
 
 ---
 
@@ -148,9 +141,9 @@ npm run dev
 
 Frontend Developer
 
-GitHub: https://github.com/your-username
+GitHub: https://github.com/rimiruma
 
-LinkedIn: https://linkedin.com/in/your-profile
+LinkedIn: https://www.linkedin.com/in/rimi-ruma
 
 ---
 
