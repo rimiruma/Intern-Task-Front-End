@@ -44,14 +44,6 @@ A modern and responsive Product Explorer web application built with **React**, *
 * Axios
 * FakeStore API
 
-### Backend
-
-* Node.js
-* Express.js
-* MongoDB
-* CORS
-* Dotenv
-
 ---
 
 ## 📂 Project Structure
@@ -116,14 +108,6 @@ VITE_API_URL=http://localhost:5000
 
 ---
 
-## 🚀 Backend Setup
-
-```bash
-cd server
-
-npm install
-
-npm run dev
 ```
 
 ---
