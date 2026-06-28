@@ -6,7 +6,7 @@ A modern and responsive Product Explorer web application built with **React**, *
 
 ## 🌐 Live Demo
 
-**Live Site:** https://your-live-link.vercel.app
+**Live Site:** https://intern-task-front-end.vercel.app/
 
 **Frontend Repository:** https://github.com/rimiruma/Intern-Task-Front-End
 
@@ -98,12 +98,7 @@ npm run dev
 
 ---
 
-## 🔧 Environment Variables
 
-Create a `.env` file in the project root.
-
-```env
-VITE_API_URL=http://localhost:5000
 ```
 
 ---
